@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b00b90ea-a8d2-4586-ac61-dce5a9f06b32" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/patient/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HospitalReadmissionBackend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HospitalReadmissionBackend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalReadmissionBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalReadmissionBackend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalReadmissionBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalReadmissionBackend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/patient/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -81,6 +89,7 @@
       <updated>1756015547250</updated>
       <workItem from="1756015548274" duration="3831000" />
       <workItem from="1756019535746" duration="366000" />
+      <workItem from="1756020922463" duration="4736000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />

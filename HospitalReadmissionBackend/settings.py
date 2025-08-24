@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'patient'
+    'hospital',
+    "rest_framework",
 ]
+
+AUTH_USER_MODEL = "hospital.User"
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -75,8 +79,15 @@ WSGI_APPLICATION = 'HospitalReadmissionBackend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'hospital_db',     # your database name
+        'USER': 'root',            # your MySQL username
+        'PASSWORD': '12345',  # your MySQL password
+        'HOST': '127.0.0.1',       # localhost (or IP if remote)
+        'PORT': '3306',            # default MySQL port
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
     }
 }
 
